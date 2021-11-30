@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" initial-scale=1.0">
+    <title>Formulari d´enviament</title>
+</head>
+<body  style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <form method="get" action="mailto:rogajorge@gmail.com">
+        <table bgcolor="efefef" align="center">  
+            <tr>
+                <td>
+                    <legend style="background-color: #306090; color: white;" >Enviar missatge<img align="right" src="img/gb_reload_s.gif" ></legend></td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label><strong>Usuari:</strong></label>
+                    <input aling="right"type="text" name="Usuari" size="52">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label><strong>Contrasenya:</strong></label>
+                    <input type="password" mane="contraseña" size="43" form bl, bla, bla id="psswd">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label><strong>Repetició de contrasenya</strong></label>
+                    <input type="text" size="25">
+                </td>
+            </tr>
+            <tr>
+                <td align="right"> 
+                    <label><strong>Nom: </strong></label>
+                    <input  type="text" name="Nom complet" size="55"> 
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label><strong>E-Mail: </strong></label>
+                    <input  type="text" name="El teu E-Mail" size="53">
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <label><strong>Arxui </strong></label>
+                    <input type="file" name="Busca el teu arxiu" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <label><strong>Imatge: </strong> </label>
+                     <input type="file" accept="image/*">
+                </td>
+            </tr>
+            <tr>
+                <td align="center"> 
+                     <label><small><smal><small>El tamany de l'arxiu i la imatge no pot excedir els 4 KBytes</small></smal></small></label>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                   <label>Requereixo Resposta: <input type="radio" name="Resposta?" value="si">Sí</label>
+                    <label><input type="radio" name="Resposta?" value="no">No</label>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    Quins jocs t'interessen?
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <label><input type="checkbox" name="juegos" value="Super Mario">Super Mario<input type="checkbox" name="juegos" value="Pac-Man">Pac-Man<input type="checkbox" name="juegos" value="Tetris">Tetris<input type="checkbox" name="juegos" value="Buscaminas">Buscaminas</label>
+                </td>
+             </tr> 
+             <tr>
+                <td align="center">
+                    <label>Missatge</label>
+                </td> 
+            </tr>    
+            <tr>
+                <td align="center">
+                    <label><textarea name="comentarios" rows="5" cols="45">Escribe aquí tus comentarios</textarea></label>
+                </td>
+            </tr>
+            <tr>
+                 
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="submit" value="Enviar" >
+                    <form method="post" action="mailto:email.com?subject=subject&message=message">
+                    <input type="reset" value="Borrar">
+                </td>
+            </tr>
+        </table>
+   </form>
+</body>
+</html>
